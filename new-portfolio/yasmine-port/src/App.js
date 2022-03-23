@@ -2,6 +2,8 @@
 import './App.scss';
 import React from 'react';
 import Navbar from './components/Navbar';
+import Intro from './components/Intro';
+
 
 
 function App() {
@@ -9,6 +11,9 @@ function App() {
     <div className="App">
       <div id="background"></div>
       <Navbar />
+      <div className='int-container'>
+      <Intro />
+      </div>
     </div>
   );
 }
